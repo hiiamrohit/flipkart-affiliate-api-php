@@ -3,7 +3,7 @@ include_once("flipkartApiClass.php");
 
 // Get affiliateID and token from https://affiliate.flipkart.com/
 // Set flipkart affiliateID and token
-$affiliateID = 'YOUR_AFFILIATE_ID;
+$affiliateID = 'YOUR_AFFILIATE_ID';
 $token = 'YOUR_TOKEN';
 $fkObj = new flipkartApi($affiliateID, $token);
 
